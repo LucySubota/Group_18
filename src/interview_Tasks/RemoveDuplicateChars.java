@@ -1,4 +1,4 @@
-package Interview_Tasks;
+package interview_Tasks;
 
 public class RemoveDuplicateChars {
     public static void main(String[] args) {
