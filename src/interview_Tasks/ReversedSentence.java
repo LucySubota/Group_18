@@ -1,4 +1,4 @@
-package Interview_Tasks;
+package interview_Tasks;
 
 public class ReversedSentence {
     public static void main(String[] args) {

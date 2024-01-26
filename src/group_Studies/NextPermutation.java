@@ -1,4 +1,4 @@
-package Group_Studies;
+package group_Studies;
 
 import java.util.Arrays;
 
