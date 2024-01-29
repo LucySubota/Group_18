@@ -1,7 +1,5 @@
 package group_Studies.marta;
 
-import java.util.Scanner;
-
 public class FINRA {
 
     public static void main(String[] args) {
