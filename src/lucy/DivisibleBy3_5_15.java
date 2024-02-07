@@ -1,6 +1,21 @@
 package lucy;
 
 public class DivisibleBy3_5_15 {
+    public static void main(String[] args) {
+        String divBy3 = "Divisible By 3: ";
+        String divBy5 = "Divisible By 5: ";
+        String divBy15 = "Divisible By 15: ";
+
+        for (int i = 1; i <= 100 ; i++) {
+            if(i%15==0) {divBy15 += i+" "; continue;}
+            if(i%5==0) divBy5 += i+" ";
+            if(i%3==0) divBy3 += i+" ";
+        }
+
+        System.out.println(divBy15);
+        System.out.println(divBy5);
+        System.out.println(divBy3);
+    }
 }
 /*Write a program that can print the numbers between 1 ~ 100 that can be divisible by 3, 5, and 15.
         if the number can be divisible by 3, 5 and 15, then it should only be displayed in DivisibelBy15 section
