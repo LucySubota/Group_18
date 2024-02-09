@@ -19,7 +19,7 @@ public class ReverseNegativeNumber {
 
     public static int reverseNegative(int num) {
 
-        if (num < 0 && num % 10 != 0) {
+        if (num < 0 ) {
             int rev = 0;
             while (num != 0) {
                 int lastDigit = num % 10;
