@@ -3,7 +3,11 @@ package group_Studies.marta;
 public class FrequencyOfCharacters {
 
     public static void main(String[] args) {
-        String str = "AAABBCDD";
+
+        System.out.println(frequencyOfCharacters("AAABBCDD"));
+    }
+
+    public static String frequencyOfCharacters(String str) {
 
         String result = "";
 
@@ -16,7 +20,6 @@ public class FrequencyOfCharacters {
                     count++;
                 }
             }
-
             if (result.contains(""+ch)){
                 continue;
             }
@@ -25,10 +28,9 @@ public class FrequencyOfCharacters {
 
         }
 
-        System.out.println(result);
+        return result;
 
     }
-
 
 }
 /*
