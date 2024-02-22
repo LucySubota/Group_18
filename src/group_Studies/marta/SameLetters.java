@@ -6,29 +6,22 @@ public class SameLetters {
 
     public static void main(String[] args) {
 
-//        String str1 = "abc";
-//        String str2 = "cab";
-//
-//        String str3 = "abc";
-//        String str4 = "abb";
-//
-//        char[] a1 = str1.toCharArray();
-//        char[] a2 = str2.toCharArray();
-//
-//        char[] a3 = str3.toCharArray();
-//        char[] a4 = str4.toCharArray();
-//
-//        Arrays.sort(a1);
-//        Arrays.sort(a2);
-//
-//        Arrays.sort(a3);
-//        Arrays.sort(a4);
-//
-//        boolean isSameLetters = Arrays.equals(a1, a2);
-//        boolean sameLetters = Arrays.equals(a3, a4);
-//
-//        System.out.println("Is same letters: " + isSameLetters);
-//        System.out.println("Same letters: " + sameLetters);
+        System.out.println(sameLetters("abc", "cab"));
+        System.out.println(sameLetters("abc", "abb"));
+    }
+
+    public static boolean sameLetters(String str1, String str2) {
+
+        char[] a1 = str1.toCharArray();
+        char[] a2 = str2.toCharArray();
+
+        Arrays.sort(a1);
+        Arrays.sort(a2);
+
+        String sortedStr1 = new String(a1);
+        String sortedStr2 = new String(a2);
+
+        return sortedStr1.equals(sortedStr2);
 
     }
 
