@@ -3,6 +3,8 @@ package perizat_task_solutions;
 public class String_Reverse {
     public static void main(String[] args) {
         System.out.println(reverse_method("Cydeo"));
+        System.out.println(reverse_method("Perizat"));
+        System.out.println(reverse_method("SDET"));
     }
 
     public static String reverse_method(String str){
