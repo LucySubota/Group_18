@@ -7,6 +7,7 @@ public class RemoveDuplicates {
 
     public static String remove_duplicates(String str){
        String str2="";
+
         for (int i=0; i<str.length(); i++){
            char temp = str.charAt(i);
            if (str2.indexOf(temp)== -1){
