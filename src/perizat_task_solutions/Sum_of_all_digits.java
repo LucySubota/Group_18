@@ -3,7 +3,7 @@ package perizat_task_solutions;
 public class Sum_of_all_digits {
     public static void main(String[] args) {
 
-        sum_of_all_digits("12 java 5 apple 3");
+        System.out.println(sum_of_all_digits("12 java 5 apple 3"));
 
     }
 
@@ -16,7 +16,7 @@ public class Sum_of_all_digits {
             try {
                 nums += Integer.parseInt(arr[i]);
             }catch(RuntimeException e){
-
+e.printStackTrace();
             }
         }
         return nums;
